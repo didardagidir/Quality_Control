@@ -71,7 +71,7 @@ sentetik bir veri setidir. 10.000 gözlem ve 14 değişken içerir.
 
 ## 1. Tanımlayıcı İstatistikler
 
-`outputs/01_descriptives.png`
+`01_descriptives.png`
 
 | Değişken | N | Min | Maks | Ortalama | Std. Sapma | Çarpıklık | Basıklık |
 |---|---|---|---|---|---|---|---|
@@ -87,7 +87,7 @@ normallik varsayımı zayıftır.
 
 ## 2. Çapraz Tablo (Type × Machine failure)
 
-`outputs/02_crosstab.png`
+`02_crosstab.png`
 
 | Type | Toplam | Arıza (=1) | Tip içinde arıza % | Arızalar içinde pay % |
 |---|---|---|---|---|
@@ -102,7 +102,7 @@ arıza oranına (%3,9) sahiptir hem de tüm arızaların **%69,3**'ünü oluştu
 
 ## 3. Histogram (Torque)
 
-`outputs/04_histogram_torque.png` — Ortalama = 39,987 · Std. Sapma = 9,9689 · N = 10.000
+`04_histogram_torque.png` — Ortalama = 39,987 · Std. Sapma = 9,9689 · N = 10.000
 
 **Yorum:** Histogram, üst üste bindirilen normal eğriyle uyumlu, **çan biçimli ve yaklaşık
 simetrik** bir görünüm sergiler. Bu, tanımlayıcı istatistiklerdeki düşük çarpıklık/basıklık
@@ -110,7 +110,7 @@ değerlerini destekler ve Torque için normallik varsayımının makul olduğunu
 
 ## 4. Serpilme Diyagramı (Torque × Rotational speed)
 
-`outputs/05_scatter_torque_rpm.png`
+`05_scatter_torque_rpm.png`
 
 **Yorum:** Torque ile Rotational speed arasında **güçlü, negatif ve doğrusal olmayan (ters/hiperbolik)**
 bir ilişki vardır: dönme hızı arttıkça tork azalır. Bu, fiziksel olarak güç ≈ tork × açısal hız
@@ -118,7 +118,7 @@ bağıntısıyla tutarlıdır (yaklaşık sabit güçte tork, hız ile ters oran
 
 ## 5. X̄ – R Kontrol Grafiği (Torque)
 
-`outputs/06_xbar_chart.png` · `outputs/07_r_chart.png` · Sigma seviyesi: 3
+`06_xbar_chart.png` · `outputs/07_r_chart.png` · Sigma seviyesi: 3
 
 | Grafik | LCL | Merkez (CL) | UCL |
 |---|---|---|---|
@@ -130,7 +130,7 @@ dışına çıkan nokta veya belirgin örüntü gözlenmediğinden süreç **ist
 
 ## 6. X̄ – s Kontrol Grafiği (Torque)
 
-`outputs/08_xbar_s_chart.png` · `outputs/09_s_chart.png` · Sigma seviyesi: 3
+`08_xbar_s_chart.png` · `outputs/09_s_chart.png` · Sigma seviyesi: 3
 
 | Grafik | LCL | Merkez (CL) | UCL |
 |---|---|---|---|
@@ -142,7 +142,7 @@ Standart sapma grafiğinin tüm noktaları sınırlar içinde olduğundan süre�
 
 ## 7. Bireysel – Hareketli Açıklık (I–MR) Grafiği (Torque)
 
-`outputs/10_individuals_chart.png` · `outputs/11_moving_range_chart.png` · SPAN = 2 · Sigma: 3
+`10_individuals_chart.png` · `outputs/11_moving_range_chart.png` · SPAN = 2 · Sigma: 3
 
 | Grafik | LCL | Merkez (CL) | UCL |
 |---|---|---|---|
@@ -159,7 +159,7 @@ bu grafiğin kullanımını destekler.
 
 ## 8. Nitel (p) Kontrol Grafiği (Machine failure)
 
-`outputs/12_p_chart.png` · Sigma seviyesi: 3
+`12_p_chart.png` · Sigma seviyesi: 3
 
 | | Değer |
 |---|---|
@@ -173,7 +173,7 @@ oranı **kontrol altındadır**; LCL negatif çıktığı için 0 alınmıştır
 
 ## 9. Pareto Diyagramı (Hata Türü)
 
-`outputs/13_pareto_failuretype.png` — *Cases weighted by Frekans*
+`13_pareto_failuretype.png` — *Cases weighted by Frekans*
 
 | Hata Türü | Frekans | Pay % | Kümülatif % |
 |---|---|---|---|
@@ -209,36 +209,6 @@ SPCHART
   /SIGMAS=3.
 ```
 
-> X̄–R, p ve Pareto çıktılarının sözdizimini de `Paste` ile alıp bu bölüme ekleyebilirsiniz.
-
-## Ekran Görüntüleri (Dosya Eşleştirme)
-
-Aşağıdaki tablo, yüklediğiniz ekran görüntülerini bu README'de kullanılan önerilen adlarla
-eşleştirir. Görselleri `outputs/` klasörüne bu adlarla koyabilir veya README'deki yolları
-kendi dosya adlarınıza göre güncelleyebilirsiniz.
-
-| Önerilen ad (`outputs/`) | İçerik | Orijinal dosya |
-|---|---|---|
-| `01_descriptives.png` | Tanımlayıcı istatistikler | `Screenshot_2026-05-29_142151.png` |
-| `02_crosstab.png` | Çapraz tablo (Type × Machine failure) | `Screenshot_2026-05-29_142245.png` |
-| `03_crosstab_full.png` | Çapraz tablo + Case Processing | `Screenshot_2026-05-29_142254.png` |
-| `04_histogram_torque.png` | Torque histogramı | `Screenshot_2026-05-29_142414.png` |
-| `05_scatter_torque_rpm.png` | Serpilme (Torque × rpm) | `Screenshot_2026-05-29_142937.png` |
-| `06_xbar_chart.png` | X̄ grafiği | `Screenshot_2026-05-29_144327.png` |
-| `07_r_chart.png` | R grafiği | `Screenshot_2026-05-29_144333.png` |
-| `08_xbar_s_chart.png` | X̄ (s tabanlı) grafiği + sözdizimi | `Screenshot_2026-05-29_144357.png` |
-| `09_s_chart.png` | s grafiği | `Screenshot_2026-05-29_144403.png` |
-| `10_individuals_chart.png` | Bireysel (I) grafiği + sözdizimi | `Screenshot_2026-05-29_144503.png` |
-| `11_moving_range_chart.png` | Hareketli açıklık (MR) grafiği | `Screenshot_2026-05-29_144509.png` |
-| `12_p_chart.png` | p grafiği (Machine failure) | `Screenshot_2026-05-29_150056.png` |
-| `13_pareto_failuretype.png` | Pareto (Hata türü) | `Screenshot_2026-05-29_162330.png` |
-
-<-- Görselleri README içinde göstermek için örnek:
-[Tanımlayıcı istatistikler](outputs/01_descriptives.png)
-[Torque histogramı](outputs/04_histogram_torque.png)
-[X-bar grafiği](outputs/06_xbar_chart.png)
-[Pareto](outputs/13_pareto_failuretype.png)
--->
 
 ## Depo Yapısı
 
