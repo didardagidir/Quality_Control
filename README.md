@@ -57,15 +57,15 @@ sentetik bir veri setidir. 10.000 gözlem ve 14 değişken içerir.
 
 | # | Analiz | SPSS Yolu | Çıktı | Temel Sonuç |
 |---|---|---|---|---|
-| 1 | Tanımlayıcı istatistikler | Analyze ▸ Descriptive Statistics ▸ Descriptives | `outputs/01_descriptives.png` | Torque ≈ normal; Rotational speed sağa çarpık |
-| 2 | Çapraz tablo | Analyze ▸ Descriptive Statistics ▸ Crosstabs | `outputs/02_crosstab.png` | Genel arıza oranı %3,4; en yüksek L tipinde |
-| 3 | Histogram | Graphs ▸ Legacy ▸ Histogram | `outputs/04_histogram_torque.png` | Torque çan biçimli, simetrik |
-| 4 | Serpilme | Graphs ▸ Legacy ▸ Scatter/Dot | `outputs/05_scatter_torque_rpm.png` | Güçlü negatif (ters) ilişki |
-| 5 | X̄ – R grafiği | Analyze ▸ Quality Control ▸ Control Charts | `outputs/06_xbar_chart.png`, `07_r_chart.png` | Süreç kontrol altında |
-| 6 | X̄ – s grafiği | Analyze ▸ Quality Control ▸ Control Charts | `outputs/08_xbar_s_chart.png`, `09_s_chart.png` | Süreç kontrol altında |
-| 7 | I – MR grafiği | Analyze ▸ Quality Control ▸ Control Charts | `outputs/10_individuals_chart.png`, `11_moving_range_chart.png` | Bireysel değerler sınırlar içinde |
-| 8 | p grafiği | Analyze ▸ Quality Control ▸ Control Charts | `outputs/12_p_chart.png` | Arıza oranı kontrol altında |
-| 9 | Pareto | Analyze ▸ Quality Control ▸ Pareto Charts | `outputs/13_pareto_failuretype.png` | İlk 3 tür ≈ %82,6 |
+| 1 | Tanımlayıcı istatistikler | Analyze ▸ Descriptive Statistics ▸ Descriptives | `01_descriptives.png` | Torque ≈ normal; Rotational speed sağa çarpık |
+| 2 | Çapraz tablo | Analyze ▸ Descriptive Statistics ▸ Crosstabs | `02_crosstab.png` | Genel arıza oranı %3,4; en yüksek L tipinde |
+| 3 | Histogram | Graphs ▸ Legacy ▸ Histogram | `04_histogram_torque.png` | Torque çan biçimli, simetrik |
+| 4 | Serpilme | Graphs ▸ Legacy ▸ Scatter/Dot | `05_scatter_torque_rpm.png` | Güçlü negatif (ters) ilişki |
+| 5 | X̄ – R grafiği | Analyze ▸ Quality Control ▸ Control Charts | `06_xbar_chart.png`, `07_r_chart.png` | Süreç kontrol altında |
+| 6 | X̄ – s grafiği | Analyze ▸ Quality Control ▸ Control Charts | `08_xbar_s_chart.png`, `09_s_chart.png` | Süreç kontrol altında |
+| 7 | I – MR grafiği | Analyze ▸ Quality Control ▸ Control Charts | `10_individuals_chart.png`, `11_moving_range_chart.png` | Bireysel değerler sınırlar içinde |
+| 8 | p grafiği | Analyze ▸ Quality Control ▸ Control Charts | `12_p_chart.png` | Arıza oranı kontrol altında |
+| 9 | Pareto | Analyze ▸ Quality Control ▸ Pareto Charts | `13_pareto_failuretype.png` | İlk 3 tür ≈ %82,6 |
 
 ---
 
