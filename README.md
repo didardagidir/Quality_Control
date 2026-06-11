@@ -233,11 +233,11 @@ kendi dosya adlarınıza göre güncelleyebilirsiniz.
 | `12_p_chart.png` | p grafiği (Machine failure) | `Screenshot_2026-05-29_150056.png` |
 | `13_pareto_failuretype.png` | Pareto (Hata türü) | `Screenshot_2026-05-29_162330.png` |
 
-<!-- Görselleri README içinde göstermek için örnek (dosya adlarını güncelleyin):
-![Tanımlayıcı istatistikler](outputs/01_descriptives.png)
-![Torque histogramı](outputs/04_histogram_torque.png)
-![X-bar grafiği](outputs/06_xbar_chart.png)
-![Pareto](outputs/13_pareto_failuretype.png)
+<-- Görselleri README içinde göstermek için örnek:
+[Tanımlayıcı istatistikler](outputs/01_descriptives.png)
+[Torque histogramı](outputs/04_histogram_torque.png)
+[X-bar grafiği](outputs/06_xbar_chart.png)
+[Pareto](outputs/13_pareto_failuretype.png)
 -->
 
 ## Depo Yapısı
